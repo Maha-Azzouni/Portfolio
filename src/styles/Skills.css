@@ -1,0 +1,46 @@
+.skills {
+  min-height: 70vh;
+  padding: 60px 8%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 80px;
+  color: #657166;
+}
+
+.skills-title p {
+  margin: 0 0 10px;
+  color: #657166;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.skills-title h2 {
+  margin: 0;
+  color: #8C6F55;
+  font-size: clamp(50px, 7vw, 110px);
+  font-weight: 800;
+  line-height: 0.85;
+  letter-spacing: -5px;
+}
+
+.skills-list {
+  width: 100%;
+}
+
+.skill {
+  padding: 20px 0;
+  border-bottom: 1px solid #657166;
+  color: #657166;
+  font-size: 18px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.skill:hover {
+  padding-left: 15px;
+  background-color: #B89B7A;
+  color: #657166;
+  cursor: pointer;
+}
