@@ -103,7 +103,6 @@
   transform: translateY(-2px);
 }
 
-
 /* 3D VISUAL */
 
 .hero-visual {
@@ -115,17 +114,22 @@
   align-items: center;
 }
 
+/* الشكل البيج */
 .hero-circle {
   width: 430px;
   height: 430px;
+
   position: absolute;
-  border-radius: 50%;
+
   background-color: #F3EBDD;
+
+  border-radius: 40px;
+
+  right: 20px;
+  top: 20px;
 }
 
-
-/* صورة الـ 3D */
-
+/* الصورة */
 .hero-visual img {
   width: 80%;
   max-width: 500px;
@@ -134,8 +138,10 @@
   z-index: 2;
 
   object-fit: contain;
-}
 
+  /* الصورة تنزل لتحت */
+  transform: translateY(50px);
+}
 
 /* MOBILE */
 
@@ -147,11 +153,6 @@
 
   .hero-top-info {
     font-size: 8px;
-  }
-
-  .hero-title {
-    font-size: 21vw;
-    letter-spacing: -3px;
   }
 
   .hero-content {
