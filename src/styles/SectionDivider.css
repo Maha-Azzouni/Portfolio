@@ -1,0 +1,23 @@
+.section-divider {
+  width: 84%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.section-divider::before,
+.section-divider::after {
+  content: "";
+  height: 1px;
+  background-color: #657166;
+  opacity: 0.35;
+  flex: 1;
+}
+
+.section-divider span {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #8c6f55;
+}

@@ -5,16 +5,24 @@ import About from './components/About'
 import Skills from './components/Skills'
 import Projects from "./components/Projects"
 import Contact from './components/contact'
+import SectionDivider from "./components/SectionDivider"
 
 function App() {
   return (
     <>
       <Navbar />
-      <Hero />
-      <About />
-      <Skills />
-      <Projects />
-      <Contact />
+
+      <main>
+        <Hero />
+        <SectionDivider />
+        <About />
+        <SectionDivider />
+        <Skills />
+        <SectionDivider />
+        <Projects />
+        <SectionDivider />
+        <Contact />
+      </main>
     </>
   )
 }
