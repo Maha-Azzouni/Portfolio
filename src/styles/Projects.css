@@ -1,0 +1,83 @@
+.projects {
+  min-height: 60vh;
+  padding: 80px 8%;
+  display: grid;
+  grid-template-columns: 1fr 1.3fr;
+  align-items: center;
+  gap: 80px;
+  color: #657166;
+}
+
+.projects-title p {
+  margin: 0 0 10px;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.projects-title h2 {
+  margin: 0;
+  color: #8C6F55;
+  font-size: clamp(50px, 7vw, 110px);
+  font-weight: 800;
+  line-height: 0.85;
+  letter-spacing: -5px;
+}
+
+.projects-list {
+  width: 100%;
+}
+
+.project {
+  display: grid;
+  grid-template-columns: 50px 1fr;
+  gap: 20px;
+  padding: 25px 0;
+  border-bottom: 1px solid #657166;
+  transition: all 0.3s ease;
+}
+
+.project-number {
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.project h3 {
+  margin: 0 0 10px;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.project p {
+  max-width: 500px;
+  margin: 0 0 15px;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.project-tech {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.project:hover {
+  padding-left: 15px;
+  background-color: #F3EBDD;
+  cursor: pointer;
+}
+
+.project-link {
+  display: inline-block;
+  margin-top: 18px;
+  color: #657166;
+  font-size: 12px;
+  font-weight: 700;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.project-link:hover {
+  color: #8C6F55;
+  transform: translateX(5px);
+}
